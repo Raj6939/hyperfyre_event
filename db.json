@@ -4,7 +4,7 @@
   ],
 
   "users": [
-    { "id": 1, "did": "did2t273t2t","name": "raj","emai":"raj@gmail.com"},
+    { "id": 1, "did": "did2t273t2t","name": "raj","email":"raj@gmail.com"},
     { "id": 2, "did": "did21373273","name": "ratan","email":"ratan@gmail.com"},
     { "id": 3, "did": "did6323736","name": "veer","email":"veer@gmail.com"},
     { "id": 4, "did": "did723676","name": "rakesh","email":"rakesh@gmail.com"}

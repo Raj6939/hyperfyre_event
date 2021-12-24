@@ -2,7 +2,7 @@
 <Header/>
   <div id="nav">
   <h1>Login here to get into event</h1>
-<button @click="login">Login Using HyperSign</button>
+<button class="bt" @click="login">Login Using HyperSign</button>
       </div>
   
 </template>
