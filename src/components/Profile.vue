@@ -1,12 +1,14 @@
 <template>
 <div class="container">
   <!-- <section> -->
-      <details >
-          <summary @click="detail"><i class="fas fa-user-circle"></i>Profile</summary>
+
+      <details class="detail" >
+          <summary id="pr" @click="detail"><i class="fas fa-user-circle"></i>Profile</summary>
           <p>Your DID: {{det.did}}</p>
           <p>Name: {{det.name}}</p>
           <p>Email: {{det.email}}</p>
       </details>
+
   <!-- </section> -->
 </div>
 </template>
@@ -25,11 +27,11 @@ return{
 },
 methods:{
    async detail(){
-        let result = await axios.get("http://localhost:3000/users/2",{
+        let result = await axios.get("http://localhost:3000/users/1",{
          
         });
         this.det=result.data;
-        console.log(result.data);
+        // console.log(result.data);
     }
 
 }
@@ -62,7 +64,7 @@ methods:{
     /* background: blue; */
 }
 .container summary{
-     width: 500px;
+    width: 670px;
     cursor: pointer;
     color: white;
     background: teal;
