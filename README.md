@@ -14,6 +14,16 @@ npm run serve
 ```
 npm run build
 ```
+### Command to run json server
+```
+json-server --watch db.json
+```
+
+### Commands to run open cypress
+```
+$(npm bin)/cypress open
+```
+
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
